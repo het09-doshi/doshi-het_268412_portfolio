@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Het Doshi | AI/ML & Software Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">&lt;Het<span>Doshi</span> /&gt;</a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#languages" class="nav-link">Languages</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle Light/Dark Mode">
+          <i class="fas fa-sun"></i>
+        </button>
+        <button id="mobile-menu-btn" class="icon-btn mobile-only" aria-label="Toggle Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <span class="badge">Available for Internships & Projects</span>
+        <h1>Hi, I'm <span class="highlight">Het Doshi</span></h1>
+        <h2 class="typing-wrapper">I build <span id="typing-text"></span><span class="cursor">|</span></h2>
+        <p class="hero-desc">
+          B.Tech Computer Science & Engineering (AI & ML) undergraduate at <strong>JG University</strong> with a strong foundation from my Diploma at <strong>LJ University</strong>. Passionate about Python, Data Structures, Machine Learning, and clean web development.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary"><i class="fas fa-code"></i> View Projects</a>
+          <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a>
+        </div>
+        <div class="hero-quick-info">
+          <span><i class="fas fa-envelope"></i> hetdoshi45@gmail.com</span>
+          <span><i class="fas fa-phone"></i> +91 9427419429</span>
+          <span><i class="fas fa-map-marker-alt"></i> Ahmedabad, Gujarat</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="code-card">
+          <div class="code-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="file-name">het_profile.py</span>
+          </div>
+          <pre><code><span class="kw">class</span> <span class="cls">Developer</span>:
+    <span class="kw">def</span> <span class="fn">__init__</span>(<span class="self">self</span>):
+        <span class="self">self</span>.name = <span class="str">"Het Doshi"</span>
+        <span class="self">self</span>.degree = <span class="str">"B.Tech CSE (AI & ML)"</span>
+        <span class="self">self</span>.university = <span class="str">"JG University"</span>
+        <span class="self">self</span>.cgpa = <span class="num">8.2</span>
+        <span class="self">self</span>.diploma = <span class="str">"LJ University"</span>
+        <span class="self">self</span>.stack = [<span class="str">"Python"</span>, <span class="str">"DSA"</span>, <span class="str">"HTML/CSS/JS"</span>, <span class="str">"ML"</span>]
+
+    <span class="kw">def</span> <span class="fn">status</span>(<span class="self">self</span>):
+        <span class="kw">return</span> <span class="str">"Ready to build scalable solutions!"</span></code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Introduction</span>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <p>
+            I am a dedicated Computer Science student specializing in <strong>Artificial Intelligence and Machine Learning</strong> at JG University, holding a current CGPA of <strong>8.2</strong>. Having completed my engineering diploma from <strong>LJ University</strong>, I bring both hands-on technical fundamentals and analytical problem-solving skills to every project.
+          </p>
+          <p>
+            My current focus revolves around mastering Data Structures & Algorithms in Python, building interactive web applications using HTML, CSS, and JavaScript, and preparing for Data Science and Software Engineering roles.
+          </p>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <h3>8.2</h3>
+            <p>Current CGPA</p>
+          </div>
+          <div class="stat-card">
+            <h3>6+</h3>
+            <p>Completed Projects</p>
+          </div>
+          <div class="stat-card">
+            <h3>4+</h3>
+            <p>Coursera Certificates</p>
+          </div>
+          <div class="stat-card">
+            <h3>3</h3>
+            <p>Languages Spoken</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Timeline Section -->
+  <section id="education" class="section alt-bg">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Academic Background</span>
+        <h2>Education</h2>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2025 – Present (2nd Year)</span>
+            <h3>B.Tech in Computer Science & Engineering (AI & ML)</h3>
+            <h4>JG University, Ahmedabad</h4>
+            <p><strong>Current CGPA: 8.2 / 10</strong></p>
+            <p>Core coursework: Data Structures & Algorithms, Python Programming, Artificial Intelligence, Machine Learning Foundations, Database Management Systems, and Web Technologies.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Completed Prior to D2D Admission</span>
+            <h3>Diploma in Engineering</h3>
+            <h4>LJ University, Ahmedabad</h4>
+            <p>Built a strong practical foundation in programming logic, computer fundamentals, software engineering principles, and structured project development.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Technical Proficiency</span>
+        <h2>Skills & Tools</h2>
+      </div>
+      <div class="skills-grid reveal">
+        <!-- Programming & Core -->
+        <div class="skill-category">
+          <h3><i class="fas fa-terminal"></i> Programming & CS Core</h3>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>Python</span><span>90%</span></div>
+            <div class="progress-bg"><div class="progress-fill" data-width="90%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>Data Structures & Algorithms</span><span>82%</span></div>
+            <div class="progress-bg"><div class="progress-fill" data-width="82%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>C / C++ Fundamentals</span><span>80%</span></div>
+            <div class="progress-bg"><div class="progress-fill" data-width="80%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>SQL & Database Design</span><span>78%</span></div>
+            <div class="progress-bg"><div class="progress-fill" data-width="78%"></div></div>
+          </div>
+        </div>
+
+        <!-- Web Development -->
+        <div class="skill-category">
+          <h3><i class="fas fa-globe"></i> Web Development</h3>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>HTML5 (Semantic Markup)</span><span>92%</span></div>
+            <div class="progress-bg"><div class="progress-fill" data-width="92%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>CSS3 (Flexbox, Grid, Responsive)</span><span>88%</span></div>
+            <div class="progress-bg"><div class="progress-fill" data-width="88%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>JavaScript (ES6+, DOM)</span><span>85%</span></div>
+            <div class="progress-bg"><div class="progress-fill" data-width="85%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>UI/UX & Responsive Design</span><span>84%</span></div>
+            <div class="progress-bg"><div class="progress-fill" data-width="84%"></div></div>
+          </div>
+        </div>
+
+        <!-- AI/ML & Tools -->
+        <div class="skill-category">
+          <h3><i class="fas fa-brain"></i> Data Science & Tools</h3>
+          <div class="tags-cloud">
+            <span class="tech-tag">NumPy</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">Matplotlib</span>
+            <span class="tech-tag">Scikit-Learn</span>
+            <span class="tech-tag">Jupyter Notebook</span>
+            <span class="tech-tag">VS Code</span>
+            <span class="tech-tag">Git & GitHub</span>
+            <span class="tech-tag">Windows PowerShell</span>
+            <span class="tech-tag">Problem Solving</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section alt-bg">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Work Showcase</span>
+        <h2>Featured Projects</h2>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-buttons reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Dev</button>
+        <button class="filter-btn" data-filter="python">Python & Games</button>
+        <button class="filter-btn" data-filter="aiml">AI / Data</button>
+      </div>
+
+      <div class="projects-grid reveal">
+        <article class="project-card" data-category="web">
+          <div class="project-top">
+            <i class="fas fa-laptop-code project-icon"></i>
+            <div class="project-links">
+              <a href="#" title="Source Code"><i class="fab fa-github"></i></a>
+              <a href="#" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Personal Developer Portfolio</h3>
+          <p>A responsive, dark/light-mode enabled personal portfolio website built with semantic HTML5, modular CSS3, and vanilla JavaScript.</p>
+          <div class="project-tech">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="python">
+          <div class="project-top">
+            <i class="fas fa-gamepad project-icon"></i>
+            <div class="project-links">
+              <a href="#" title="Source Code"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Interactive Browser & Terminal Games</h3>
+          <p>Developed logic-driven mini-games in Python for terminal play alongside browser-compatible interactive game mechanics in Chrome.</p>
+          <div class="project-tech">
+            <span>Python</span><span>JavaScript</span><span>Game Logic</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="aiml">
+          <div class="project-top">
+            <i class="fas fa-chart-line project-icon"></i>
+            <div class="project-links">
+              <a href="#" title="Source Code"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Student Performance Predictor</h3>
+          <p>Exploratory data analysis and regression model predicting student exam scores based on study hours and attendance metrics.</p>
+          <div class="project-tech">
+            <span>Python</span><span>Pandas</span><span>Scikit-Learn</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="python">
+          <div class="project-top">
+            <i class="fas fa-project-diagram project-icon"></i>
+            <div class="project-links">
+              <a href="#" title="Source Code"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>DSA Visualizer & Problem Suite</h3>
+          <p>Collection of clean Python implementations for arrays, linked lists, stacks, queues, sorting algorithms, and aptitude practice problems.</p>
+          <div class="project-tech">
+            <span>Python</span><span>Algorithms</span><span>Data Structures</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coursera Certifications Section -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Verified Credentials</span>
+        <h2>Coursera Certifications</h2>
+      </div>
+      <div class="cert-grid reveal">
+        <div class="cert-card">
+          <div class="cert-badge"><i class="fas fa-award"></i></div>
+          <div class="cert-body">
+            <h3>Python for Everybody / Programming for Everybody</h3>
+            <p class="cert-issuer">Coursera • University of Michigan</p>
+            <p class="cert-desc">Mastered core Python syntax, data structures, loops, functions, and file handling.</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-badge"><i class="fas fa-award"></i></div>
+          <div class="cert-body">
+            <h3>Introduction to Artificial Intelligence (AI)</h3>
+            <p class="cert-issuer">Coursera • IBM</p>
+            <p class="cert-desc">Covered AI concepts, machine learning workflows, neural networks, and real-world applications.</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-badge"><i class="fas fa-award"></i></div>
+          <div class="cert-body">
+            <h3>HTML, CSS, and Javascript for Web Developers</h3>
+            <p class="cert-issuer">Coursera • Johns Hopkins University</p>
+            <p class="cert-desc">Built responsive web pages using modern layout techniques and interactive JavaScript DOM scripting.</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-badge"><i class="fas fa-award"></i></div>
+          <div class="cert-body">
+            <h3>Data Structures & Foundations of Data Science</h3>
+            <p class="cert-issuer">Coursera</p>
+            <p class="cert-desc">Applied algorithmic problem-solving, time complexity analysis, and data manipulation in Python.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Languages & Soft Skills Section -->
+  <section id="languages" class="section alt-bg">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Communication</span>
+        <h2>Languages Known</h2>
+      </div>
+      <div class="lang-grid reveal">
+        <div class="lang-card">
+          <h3>English</h3>
+          <p>Professional Working & Academic Proficiency</p>
+          <span class="lang-level">Fluent (Read / Write / Speak)</span>
+        </div>
+        <div class="lang-card">
+          <h3>Hindi</h3>
+          <p>Full Conversational & Professional Proficiency</p>
+          <span class="lang-level">Fluent (Read / Write / Speak)</span>
+        </div>
+        <div class="lang-card">
+          <h3>Gujarati</h3>
+          <p>Native / Bilingual Proficiency</p>
+          <span class="lang-level">Native (Read / Write / Speak)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Get In Touch</span>
+        <h2>Contact Me</h2>
+      </div>
+      <div class="contact-grid reveal">
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>Feel free to reach out for college project collaborations, internship opportunities, or technical discussions.</p>
+
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:hetdoshi45@gmail.com">hetdoshi45@gmail.com</a>
+              <button class="copy-btn" data-copy="hetdoshi45@gmail.com" title="Copy Email">Copy</button>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <h4>Mobile</h4>
+              <a href="tel:+919427419429">+91 9427419429</a>
+              <button class="copy-btn" data-copy="9427419429" title="Copy Number">Copy</button>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-university"></i>
+            <div>
+              <h4>University</h4>
+              <p>JG University, Ahmedabad, Gujarat</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Internship / Project Inquiry" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p id="form-feedback" class="form-feedback"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> <strong>Het Doshi</strong>. Built with HTML, CSS & JavaScript.</p>
+      <div class="footer-links">
+        <a href="mailto:hetdoshi45@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+919427419429" aria-label="Phone"><i class="fas fa-phone"></i></a>
+        <a href="#home" aria-label="Back to Top"><i class="fas fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
